@@ -1,0 +1,145 @@
+.register-container .steps-container {
+    display: flex;
+    justify-content: start;
+    width: 100vw;
+    height: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #14181d;
+}
+
+.register-container .btn-bck{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: calc(50vh - 100px);
+}
+.register-container .content-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container .steps-container .column {
+    width: 33% !important;
+    height: 100px;
+}
+
+.register-container .logo img {
+    height: 100px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.register-container .steps {
+    transition: all 0.3s ease-in !important;
+    background-position: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container .steps.step-1 {
+    background: url("../../public/img/icons/register-steps/step-1.png") no-repeat;
+}
+
+.register-container .steps.step-2 {
+    background: url("../../public/img/icons/register-steps/step-2.png") no-repeat;
+}
+
+.register-container .steps.step-3 {
+    background: url("../../public/img/icons/register-steps/step-3.png") no-repeat;
+}
+
+.register-container .step-texts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 480px;
+    top: 75px;
+}
+
+.register-container .step-texts span {
+    transition: color 0.5s;
+    width: 33%;
+    color: white;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.register-container .step-texts .active {
+    color: #FFC814 !important;
+}
+
+.register-container .account-container {
+    width: 500px;
+    text-align: center;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container h1 {
+    margin-bottom: 20px;
+    font-size: 45px !important;
+}
+
+.register-container .inputs-container input {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.register-container .account-container .button-wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.register-container .account-container .button-wrapper button {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.register-container .complete-container {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.register-container .complete-container .license-wrapper {
+    margin-top: 30px;
+    width: 60vw;
+    padding-right: 15px !important;
+}
+
+.register-container .complete-container .license {
+    color: rgb(181, 181, 181);
+    text-align: start;
+    max-height: 355px;
+    overflow-y: scroll;
+}
+
+.register-container .complete-container .license h5 {
+    text-align: center;
+    color: rgb(181, 181, 181) !important;
+    margin-bottom: 20px;
+}
+
+.register-container .complete-container .checkbox-wrapper {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    padding: 20px;
+}
+
+.register-container button {
+    color: white;
+}
+
+.register-container .button-wraper{
+    width: 100%;
+    justify-content: center !important;
+    display: flex;
+}

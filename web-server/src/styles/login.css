@@ -1,0 +1,63 @@
+.wallets-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    background: url('../../public/img/bg-wallet.webp') repeat;
+    padding: 50px;
+}
+
+.wallets-container .container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.wallets-container .wallets-wrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wallets-container .close-button {
+    right: 30px;
+    top: 30px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.wallets-container .close-button:hover {
+    cursor: pointer;
+}
+
+.wallets-container .wallet-container {
+    cursor: pointer;
+    background: url('../../public/img/wallet-back.png') center / contain no-repeat;
+    height: 60px;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.wallet-wrapper{
+    display: flex;
+    align-items: center;
+}
+.wallets-container .wallet-container h5 {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.wallets-container .wallet-container h6 {
+    margin-top: 10px;
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 0.29);
+}

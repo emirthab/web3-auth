@@ -1,0 +1,48 @@
+.error-block {
+    margin-top: 30px;
+    width: 40vw;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.error-content {
+    display: flex;
+    width: 100%;
+    padding: 25px;
+    flex-direction: column;
+}
+
+.error-content * {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.error-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.error-container .logo {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    height: 100px;
+    margin: 0 auto;
+
+}
+
+.error-content img {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 50px !important;
+}
+
+.error-content h1 {
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.error-content span {
+    text-align: center;
+    width: 400px;
+}

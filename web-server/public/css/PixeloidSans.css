@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Pixeloid Sans';
+	src: url(../fonts/PixeloidSans.woff2) format('woff2'),
+	url(../fonts/PixeloidSans.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Pixeloid Sans';
+	src: url(../fonts/PixeloidSans-Bold.woff2) format('woff2'),
+	url(../fonts/PixeloidSans-Bold.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}

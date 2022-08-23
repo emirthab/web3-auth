@@ -1,0 +1,118 @@
+header {
+    height: 65px;
+    border-bottom: 1px solid rgb(62, 62, 62);
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #14181d;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+}
+
+header .logo-wrapper {
+    height: 100%;
+}
+
+header .logo {
+    height: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    float: left;
+}
+
+.content {
+    background: #0c1014;
+    margin-top: 65px;
+    margin-left: 91px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar {
+    margin-top: 65px;
+    width: 90px;
+    background: #14181d;
+    height: 100%;
+    align-items: flex-start;
+    position: fixed;
+    justify-content: center;
+}
+
+.navbar .nav {
+    flex-direction: column;
+}
+
+.navitem {
+    border-radius: 10px;
+    margin-bottom: 5px;
+    width: 75px !important;
+    height: 80px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none !important;
+}
+
+.navitem span {
+    color: white;
+}
+
+.navitem img {
+    image-rendering: pixelated;
+    width: 40px;
+}
+
+.accountbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accountbar-container .ethereum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.accountbar-container .ethereum img {
+    width: 20px;
+}
+
+.accountbar-container .ethereum h1 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding-left: 10px;
+    margin-top: 11px;
+}
+
+.accountbar-container .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 30px;
+    margin-left: 30px;
+    border-left: 1px solid #3e3e3e;
+}
+
+.accountbar-container .profile img {
+    width: 45px;
+    border-radius: 50px;
+    border: 2px solid var(--bs-cyan);
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
